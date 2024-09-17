@@ -36,13 +36,13 @@ function generatepassword() {
         }
 
         password.innerHTML = `<div class="transition-opacity opacity-0 duration-300 ease-in-out">
-          <span class="text-3xl text-white">SUA SENHA FOI GERADA!</span>
+          <span class="text-2xl md:text-3xl text-white">SUA SENHA FOI GERADA!</span>
           <div class="rounded-lg w-full p-4 h-13 mt-4 text-white bg-zinc-800 text-center">${newpassword}</div>
           </div>`
     }
     else {
         password.innerHTML = `<div class="transition-opacity opacity-0 duration-300 ease-in-out">
-        <div class="flex justify-center"><span class="text-3xl text-white ">OPS!</span></div>
+        <div class="flex justify-center"><span class="text-2xl md:text-3xl text-white ">OPS!</span></div>
         <div class="rounded-lg w-full p-4 h-13 mt-4 text-white bg-zinc-800 text-center">Acho que você não selecionou nenhuma das opções acima</div>
         </div>`
     }
